@@ -26,7 +26,7 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">MNLL042706</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAXB5rFFIZFUS54n9dA7IMbAAAAAACAAAAAAADZgAAwAAAABAAAAAiFbU4pk3e0FMfyZz9kyJlAAAAAASAAACgAAAAEAAAAHkI6YQP4snW92NaJc6A6kSIAAAAEGqlEy/aPcBiLpBN7ZaS5/B2dZOloryw8cCvRw4XScVA/KehambYqfeyf+4elWFGfHkwliqpUULw+SEwU+nGcvoaXeiXPcIV9Iw91tjTaC4pQthDuPHtTnVHPXwI2Z/kb/7tEQdYkEvfa/bQi5oD462+LgZO7dq3u6sNVSIVn64fnoYHvEVIdRQAAACCWacRRKcnas/aC4176Nxbg6mTZA==</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAXB5rFFIZFUS54n9dA7IMbAAAAAACAAAAAAADZgAAwAAAABAAAACWl7rpDmvqbtq2XxIo6z2HAAAAAASAAACgAAAAEAAAAApPZybdJbhi/wjlDvc4zoWIAAAAivowYFNTxivvGs6KSmV75ybcZepUjLovx0eNJeT79cGxVRtP7kpJ1siikLJxHESo3LO9uIRQagS/SLG4yTfOhEABcmvJFhXNgOp9H2OoDkKouff2POgGjJmBDMZbWMb/UPAzm3RJUYdnvgk/sfySQlBABYtUOz+bJmQEfM8D7fW7Ja9mHrmnlxQAAACc+JdPKf26tAMRBH1EA0i3SdhOrQ==</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
@@ -42,16 +42,86 @@
                 <SSIS:Property SSIS:Name="Name">Workday_HC_Finance to ServiceNow</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">170</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">175</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{9394F201-B18D-45B3-AADA-03397F13D706}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{F3C5AEA9-4108-4D25-99BA-7E20AAA3C885}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
                 <SSIS:Property SSIS:Name="ProtectionLevel">1</SSIS:Property>
               </SSIS:Properties>
               <SSIS:Parameters>
+                <SSIS:Parameter SSIS:Name="ApiCostCenter">
+                  <SSIS:Properties>
+                    <SSIS:Property SSIS:Name="ID">{CD1959AE-A175-4589-AC82-AE45F37B0484}</SSIS:Property>
+                    <SSIS:Property SSIS:Name="CreationName">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="Description">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">https://wd3-impl-services1.workday.com/ccx/service/customreport2/aurecongroup6/ISU_DH_DW/INTxxx_-_AA_-_RaaS_-_Org_Hierarchies_-_ServiceNow</SSIS:Property>
+                    <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
+                  </SSIS:Properties>
+                </SSIS:Parameter>
+                <SSIS:Parameter SSIS:Name="ApiCountry">
+                  <SSIS:Properties>
+                    <SSIS:Property SSIS:Name="ID">{9E086D1A-F051-41CE-9B80-FBB3870CAC96}</SSIS:Property>
+                    <SSIS:Property SSIS:Name="CreationName">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="Description">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">https://wd3-impl-services1.workday.com/ccx/service/customreport2/aurecongroup6/ISU_DH_DW/INTxxx_-_AA_-_RaaS_-_Location_Hierarchy_-_ServiceNow</SSIS:Property>
+                    <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
+                  </SSIS:Properties>
+                </SSIS:Parameter>
+                <SSIS:Parameter SSIS:Name="ApiProject">
+                  <SSIS:Properties>
+                    <SSIS:Property SSIS:Name="ID">{9512F9D5-57C5-4FDB-B443-51A2BB39FAA4}</SSIS:Property>
+                    <SSIS:Property SSIS:Name="CreationName">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="Description">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">https://wd3-impl-services1.workday.com/ccx/service/customreport2/aurecongroup6/ISU_DH_DW/INTxxx_-_AA_-_RaaS_-_Project_Info_-_ServiceNow</SSIS:Property>
+                    <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
+                  </SSIS:Properties>
+                </SSIS:Parameter>
+                <SSIS:Parameter SSIS:Name="Password">
+                  <SSIS:Properties>
+                    <SSIS:Property SSIS:Name="ID">{B83D17C4-EB80-4CC4-8803-22F888268F9B}</SSIS:Property>
+                    <SSIS:Property SSIS:Name="CreationName">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="Description">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Sensitive">1</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAXB5rFFIZFUS54n9dA7IMbAAAAAACAAAAAAADZgAAwAAAABAAAABjyQiUAFAS+DRqvM8NvemUAAAAAASAAACgAAAAEAAAANv7f5obmGS5Jk3AgdAdkOOAAAAAKq06HTwMKVN0qkE7t0aN/zcl6etXiVbuPtOaaaDpqXiTosmmuhYWwRtuRbfj8X+ZAuoxmT18+4A10pvfK4u+F4Wu1aruEVHihpxqVMoiPgSZqgVWctYd0qsujN8ZYPyVJMaJ5Z1w/2TXvKWFBBuRcASMhaCIUTQ9hjUnyd5ttxgUAAAA1sRuHCbmrCdh0edR1u1b865kgpw=</SSIS:Property>
+                    <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
+                  </SSIS:Properties>
+                </SSIS:Parameter>
+                <SSIS:Parameter SSIS:Name="Username">
+                  <SSIS:Properties>
+                    <SSIS:Property SSIS:Name="ID">{7931D1AE-0CF3-4BC7-8D6A-6564E7FD163C}</SSIS:Property>
+                    <SSIS:Property SSIS:Name="CreationName">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="Description">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">ISU_DH_DW</SSIS:Property>
+                    <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
+                  </SSIS:Properties>
+                </SSIS:Parameter>
                 <SSIS:Parameter SSIS:Name="CM.HC_Stage.ConnectByProxy">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">

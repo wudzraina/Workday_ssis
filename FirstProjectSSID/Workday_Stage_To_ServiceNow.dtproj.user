@@ -5,7 +5,7 @@
       <Name>Development</Name>
       <Options>
         <ServerName>AUDC2TSQLINT01</ServerName>
-        <PathOnServer>/SSISDB/WDS Package/WD_HCStage_To_ServiceNow</PathOnServer>
+        <PathOnServer>/SSISDB/WDS Package/Workday_Stage_To_ServiceNow</PathOnServer>
         <UserIDs />
         <UserPasswords />
         <OfflineMode>false</OfflineMode>
