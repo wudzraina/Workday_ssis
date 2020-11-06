@@ -2,13 +2,13 @@
 <BuildLog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <ProjectInfo>
     <Name>Workday_Stage_To_ServiceNow</Name>
-    <LastWriteTime>2020-11-05T14:56:35.920488Z</LastWriteTime>
+    <LastWriteTime>2020-11-06T03:18:57.4792653Z</LastWriteTime>
     <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
   </ProjectInfo>
   <LastBuildInfos>
     <ProjectBuildItemInfo>
       <Name>Workday_HC_Stage to ServiceNow.dtsx</Name>
-      <LastWriteTime>2020-11-05T14:56:35.8766066Z</LastWriteTime>
+      <LastWriteTime>2020-11-06T09:25:47.365792Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
     </ProjectBuildItemInfo>
   </LastBuildInfos>
